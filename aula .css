@@ -1,0 +1,48 @@
+:root {
+    --primeira-cor: rgb(175, 175, 184);
+    --segunda-cor: rgb(243, 85, 85);
+    --terceira-cor: rgb(48, 3, 3);
+
+
+}
+
+body {
+    background: var(--primeira-cor);
+
+}
+
+div.container h1 {
+    color: var(--primeira-cor);
+    font-size: 16px; 
+    font-weight: 701;
+
+}
+
+div.container p {
+    color: var (--segunda-cor);
+    font-size: 16px;
+
+
+}
+
+div.container form {
+    border: 5px solid black;
+    margin: 100px 75px 40px 100px;
+    padding-top: 10px;
+}
+
+.container {
+    text-align: center;
+    border-radius: 20px;
+    
+}
+input{
+background-color: blanchedalmond;
+border-radius: 10px;
+border: 2px solid white;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+.form-group{
+    color:brown;
+}
